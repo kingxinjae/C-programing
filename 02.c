@@ -1,31 +1,30 @@
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
-//#define SIZE 10
+////#include <string.h>
+////#include <ctype.h>
+//#include <stdlib.h>
 //
-//void arith_seq(int arr[], int size, int plus);
-//void print_array(int arr[], int size);
 //int main() {
-//	int arr[SIZE]={0}, diff;
-//
-//	printf("첫 번째 항?: ");
-//	scanf("%d", &arr[0]);
-//	printf("공차?: ");
-//	scanf("%d", &diff);
-//
-//	arith_seq(arr,SIZE,diff);
-//
-//	printf("등차수열 :");
-//	print_array(arr, SIZE);
-//}
-//
-//void arith_seq(int arr[], int size, int plus) {
-//	for (int i = 0; i < size; i++) {
-//		arr[i] = arr[0] + plus * i;
+//	int n;
+//	printf("입력받을 정수의 개수: ");
+//	scanf("%d", &n);
+//	int positive = 0, minus = 0, zero = 0;
+//	int* p = (int*)malloc(sizeof(int) * n);
+//	printf("%d개의 정수를 입력하라: ", n);
+//	for (int i = 0; i < n; i++) {
+//		scanf("%d", &p[i]);
+//		if (p[i] > 0) {
+//			positive++;
+//		}
+//		else if (p[i] < 0) {
+//			minus++;
+//		}
+//		else {
+//			zero++;
+//		}
 //	}
-//}
-//void print_array(int arr[], int size) {
-//	for (int i = 0; i < size; i++) {
-//		printf("%d ", arr[i]);
-//	}
-//	printf("\n");
+//	printf("양수의 개수: %d \n", positive);
+//	printf("음수의 개수: %d \n", minus);
+//	printf("0의 개수: %d \n", zero);
+//
 //}

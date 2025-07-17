@@ -1,26 +1,25 @@
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
+//#include <string.h>
+//#include <ctype.h>
+//#include <stdlib.h>
 //
-//void fill_2d_array(int arr[3][5], int r, int n);
 //int main() {
-//	int data[3][5];
-//	int value;
-//	printf("배열의 원소에 저장할 값? :");
-//	scanf("%d", &value);
-//	
-//	fill_2d_array(data,3,value);
-//	for (int i = 0; i < 3; i++) {
-//		for (int j = 0; j < sizeof(data[0]) / sizeof(data[0][0]); j++) {
-//			printf("%d ", data[i][j]);
-//		}
-//		printf("\n");
+//	int n;
+//	printf("입력받을 정수의 개수를 입력: ");
+//	scanf("%d", &n);
+//	int* p = (int*)malloc(sizeof(int) * n);
+//	if (p == NULL) {
+//		printf("할당 실패");
+//		return 1;
 //	}
-//}
 //
-//void fill_2d_array(int arr[3][5], int r, int v) {
-//	for (int i = 0; i <r; i++ ) {
-//		for (int j = 0; j < sizeof(arr[0])/sizeof(arr[0][0]); j++) {
-//			arr[i][j] = v;
-//		}
+//	printf("%d 개의 정수 입력: ",n);
+//	for (int i = 0; i < n; i++) {
+//		scanf("%d", &p[i]);
 //	}
+//	for (int i = n; i > 0; i--) {
+//		printf("%d ", i);
+//	}
+//	free(p);
 //}
